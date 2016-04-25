@@ -82,7 +82,7 @@ h2.title {
 
 /********** Tablet devices only **********/
 @media (min-width: 768px) and (max-width: 991px) {
-   .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+   .col-md-6, .col-md-12 {
       float: left;
       border: 1px solid;
       border-color: #00008B; /* darkblue*/
@@ -101,7 +101,7 @@ h2.title {
 
 /********** mobile devices only **********/
 @media (max-width: 767px) {
-   .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
+   .col-sm-12 {
       float: left;
       border: 1px solid;
       border-color: #006400; /* darkgreen; */
