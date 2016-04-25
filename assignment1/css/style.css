@@ -1,0 +1,117 @@
+
+/********** Base styles **********/
+* {
+   box-sizing: border-box;
+}
+
+body {
+   font: normal 12pt;
+}
+
+h1 {
+   font-size: 175%;
+   margin-bottom: 15px;
+   text-align: center;
+}
+
+section {
+   width: 90%;
+   background-color: lightgray;
+   margin-left: auto;
+   margin-right: auto;
+   -webkit-column-gap: 23px;
+   -moz-column-gap: 3px;
+   column-gap: 3px;
+}
+
+p {
+   clear: both;
+   font-family: Georgia, 'Times New Roman', Garamond;
+   padding: 0 5px;
+
+}
+
+h2.title {
+   border: 1px solid black;
+   font-size: 125%;
+   float: right;
+   padding: 0 5px 0 5px;
+   margin: 0;
+}
+
+#first {
+   background-color: pink;
+   color: black;
+}
+
+
+#second {
+   background-color: red;
+   color: white;
+}
+
+#third {
+   background-color: yellow;
+   color: black;
+}
+
+/* Simple Responsive Framework. */
+.row {
+   width: 100%;
+}
+
+
+/********** Desktop only **********/
+@media (min-width: 992px) {
+   .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
+      float: left;
+      border: 1px solid darksalmon;
+   }
+
+   .col-lg-4 {
+      width: 33%;
+      margin: 3px 0.33% 0 0;
+   }
+
+   .col-lg-6 {
+      width: 49%;
+      margin: 0 1% 0 0;
+   }
+
+   .col-lg-12 {
+      width: 100%;
+   }
+}
+
+/********** Tablet devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+   .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+      float: left;
+      border: 1px solid;
+      border-color: darkblue;
+   }
+
+   .col-md-6 {
+      width: 49%;
+      margin: 0 1% 3px 0;
+   }
+
+   .col-md-12 {
+      width: 99%;
+      margin: 0 1% 3px 0;
+   }
+}
+
+/********** mobile devices only **********/
+@media (max-width: 767px) {
+   .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
+      float: left;
+      border: 1px solid;
+      border-color: darkgreen;
+   }
+
+   .col-sm-12 {
+      width: 99%;
+      margin: 0 1% 3px 0;
+   }
+}
