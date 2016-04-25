@@ -19,9 +19,6 @@ section {
    background-color: lightgray;
    margin-left: auto;
    margin-right: auto;
-   -webkit-column-gap: 23px;
-   -moz-column-gap: 3px;
-   column-gap: 3px;
 }
 
 p {
@@ -40,7 +37,7 @@ h2.title {
 }
 
 #first {
-   background-color: pink;
+   background-color: #ffc0cb; /* pink */
    color: black;
 }
 
@@ -65,7 +62,7 @@ h2.title {
 @media (min-width: 992px) {
    .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
       float: left;
-      border: 1px solid darksalmon;
+      border: 1px solid #E9967A; /* darksalmon*/
    }
 
    .col-lg-4 {
@@ -88,7 +85,7 @@ h2.title {
    .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
       float: left;
       border: 1px solid;
-      border-color: darkblue;
+      border-color: #00008B; /* darkblue*/
    }
 
    .col-md-6 {
@@ -107,7 +104,7 @@ h2.title {
    .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
       float: left;
       border: 1px solid;
-      border-color: darkgreen;
+      border-color: #006400; /* darkgreen; */
    }
 
    .col-sm-12 {
