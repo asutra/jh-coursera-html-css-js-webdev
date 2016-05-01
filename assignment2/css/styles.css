@@ -1,0 +1,74 @@
+
+body {
+   font-size: 16px;
+   font-family: 'Roboto', sans-serif;
+   background-color: #eeeeee;
+}
+
+
+/** HEADER **/
+#header-nav {
+   background-color: #999999;
+   color: #000;
+}
+
+.navbar-default {
+   background-color: #999999;
+   border-radius: 0;
+   border: 0;
+}
+
+.navbar-default .navbar-brand {
+   color: #000;
+}
+
+.navbar-brand h1 { /* Company name */
+   font-size: 30px;
+   font-weight: 700;
+   margin-top: 0;
+   margin-bottom: 0;
+}
+
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+   text-decoration: none;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+   border: 1px solid #444444;
+}
+
+/*.navbar .navbar-collapse .navbar-right > li:last-child { padding-left: 0px; }*/
+
+
+#nav-list {
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+
+#nav-list a {
+   background-color: #0fffff;
+   color: #000;
+   text-align: center;
+   border-bottom: 1px solid #000;
+}
+
+#nav-list a:hover {
+   background: #E7E7E7;
+}
+
+#nav-list a span {
+   font-size: 1.8em;
+}
+
+.content {
+   width: 100%;
+   overflow: hidden;
+   background-color: #999999;
+   margin: auto;
+   padding: 15px;
+}
